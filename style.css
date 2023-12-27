@@ -22,3 +22,72 @@ body {
 .gift-image:hover {
     transform: scale(1.1);
 }
+
+.message {
+    background-color: #f8f8f8;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background: url('/RegaloCumple/images/person1-image.jpg') center/cover; /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta de tu imagen */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header h2 {
+    font-size: 24px;
+}
+
+.person-image {
+    width: 20%; /* Adjust the size as needed */
+    border-radius: 20%;
+    margin-top: 10%;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Add hover effect if desired */
+.message:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.fireworks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1;
+}
+
+@keyframes explode {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(5);
+    }
+}
+
+.messages-container {
+    max-width: 600px; /* Establece el ancho máximo del contenedor de mensajes */
+    margin: auto;
+    padding: 20px;
+    overflow-y: auto; /* Permite el desplazamiento vertical si los mensajes son más de los que caben en la pantalla */
+    height: 80vh; /* Establece la altura máxima del contenedor de mensajes */
+}
