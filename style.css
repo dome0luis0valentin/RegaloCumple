@@ -14,12 +14,21 @@ body {
     animation: explode-gift 2s infinite; /* Agregamos una animación de rebote infinito */
 }
 
-.gift-message{
+/* .gift-message{
     display: flex;
-    justify-content: center; /* Center-align along the x-axis */
-    height: 0vh; /* Set height to 100% of the viewport height for vertical centering */
+    justify-content: center; 
+    height: 0vh; 
     width: 10%;
-    margin: 0 auto; /* Center-align the gift-message div */    animation: explode-gift 2s infinite; /* Agregamos una animación de rebote infinito */
+    margin: 0 auto;   
+    animation: explode-gift 2s infinite; 
+} 
+*/
+
+.gift-message {
+    margin: 0 auto;   
+    width:  50%; /* Ajustar el ancho según sea necesario */
+    text-align: center;
+    animation: explode-gift 2s infinite;
 }
 
 .body-container{
@@ -32,6 +41,7 @@ body {
     height: auto;
     transition: transform 0.2s ease-in-out;
 }
+
 
 .gift-image:hover {
     transform: scale(1.1);
@@ -71,16 +81,26 @@ body {
     margin-top: 10%;
 }
 
-.content p {
-    text-align: center; /* Center-align the content div */
+/* .content p{
+    text-align: center; 
     font-size: 18px;
-    /* line-height: 1.4; */
+    line-height: 50%; 
     color: #333;
     margin-top:  50vh;
     display: flex;
-    justify-content: center; /* Center-align along the x-axis */
-    height: 50vh; /* Set height to 100% of the viewport height for vertical centering */
+    justify-content: center; 
+    height: 50vh; 
+} */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
+
+
+
 
 /* Add hover effect if desired */
 .message:hover {
