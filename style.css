@@ -32,10 +32,16 @@ body {
 }
 
 .gato-message {
+    display: flex;
     margin: 0 auto;   
-    width:  50%; /* Ajustar el ancho según sea necesario */
+    width:  90%; /* Ajustar el ancho según sea necesario */
     text-align: center;
     animation: bounce 2s infinite;
+}
+
+
+.gato-message a {
+    margin-right: 10px; /* Ajusta el margen según tus preferencias */
 }
 
 @keyframes bounce {
@@ -68,6 +74,7 @@ body {
 
 .titulo{
     animation: bounce 2s infinite;
+    margin-bottom: 20%;
 }
 .message {
     background-color: #fff;
@@ -79,6 +86,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeInUp 1s ease-in-out;
     height: 80%;
+    margin-bottom: 15%;
 
 }
 
@@ -158,6 +166,10 @@ body {
         opacity: 1;
         transform: scale(3);
     }
+}
+
+.encabezado{
+    margin-bottom: 20%;
 }
 
 .messages-container {

@@ -53,7 +53,7 @@ body {
 .titulo {
     font-family: 'Arial', sans-serif;
     font-size: 3em;
-    color: #333;
+    color: #0f0505;
     position: relative;
     animation: slideIn 1s ease-out;
 }
@@ -102,7 +102,7 @@ body {
 .content {
     font-family: 'Arial', sans-serif;
     text-align: justify; /* Cambié a justificado para un aspecto más pulido */
-    font-size: 18px;
+    font-size: 25px;
     color: #333;
     margin-top: 20px;
     line-height: 1.5; /* Añadí interlineado para una mejor legibilidad */
