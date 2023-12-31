@@ -70,7 +70,7 @@ body {
     animation: bounce 2s infinite;
 }
 .message {
-    background-color: aqua;
+    background-color: #fff;
     border: 2px solid #ddd;
     border-radius: 10px;
     margin: 10px;
@@ -85,13 +85,14 @@ body {
 .header {
     color: #000;
     border: 5px dotted #0a868f;
-    background-color: #0940cc;
+    background-color: #0b308d;
     padding: 10px;
     border-radius: 5px;
 }
 
 .header h2 {
     font-size: 24px;
+    color: #fff;
 }
 
 .person-image {
